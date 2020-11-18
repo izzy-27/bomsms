@@ -112,7 +112,6 @@ echo color("red","[×] ")."Failed send otp".color("red"," [$a]\n");
 
 }
 
-sleep(1);
 }
 
 ?>
