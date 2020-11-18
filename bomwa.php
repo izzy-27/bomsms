@@ -32,7 +32,7 @@ function curl($url, $data = null, $headers = null, $proxy = null, $method = null
 
                 $options[CURLOPT_POST] = true;
 
-                $options[CURLOPT_POSTFIELDS] = $data;
+                 $options[CURLOPT_POSTFIELDS] = $data;
 
         }
 
