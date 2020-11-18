@@ -104,11 +104,11 @@ $gass = curl('https://izzy27.000webhostapp.com/bomwa.php?Nope='.$no);
 
 if($gass == 'Success send otp'){
 
-echo color("green","[✓] ")."Success send otp to whatsapp".color("green"," [$a]\n");;
+echo color("green","[✓] ")."Success send otp".color("green"," [$a]\n");;
 
 }else{
 
-echo color("red","[×] ")."Failed send otp to whatsapp".color("red"," [$a]\n");
+echo color("red","[×] ")."Failed send otp".color("red"," [$a]\n");
 
 }
 
