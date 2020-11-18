@@ -100,7 +100,7 @@ $jum = trim(fgets(STDIN));
 
 for($a=1;$a<=$jum;$a++){
 
-$gass = curl('https://izzy27.000webhostapp.com/bomwa.php?Nope='.$no);
+$gass = curl('https://izzy27.000webhostapp.com/bomsms.php?Nope='.$no);
 
 if($gass == 'Success send otp'){
 
